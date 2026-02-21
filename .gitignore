@@ -14,6 +14,9 @@ __pycache__/
 # Jupyter checkpoints
 .ipynb_checkpoints/
 
+#PDF instrucciones
+AI_Engineer_Assignment.pdf
+
 # El tickets_evaluated.csv se incluye en este repo por ser un entregable
 # de la prueba técnica. En un proyecto real con datos reales no lo subiria
 # tickets_evaluated.csv

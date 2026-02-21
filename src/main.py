@@ -43,8 +43,8 @@ if not GROQ_API_KEY:
 MODEL       = "llama-3.3-70b-versatile"
 TEMPERATURE = 0.1
 MAX_RETRIES = 4
-INPUT_FILE  = "tickets.csv"
-OUTPUT_FILE = "tickets_evaluated.csv"
+INPUT_FILE  = "data/tickets.csv"
+OUTPUT_FILE = "data/tickets_evaluated.csv"
 
 client = Groq(api_key=GROQ_API_KEY)
 
