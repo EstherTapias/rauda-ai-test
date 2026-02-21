@@ -15,18 +15,19 @@ gramática) en una escala del 1 al 5 con explicación textual.
 
 ```
 rauda_ai_test/
+├── data/
+│   ├── tickets.csv
+│   └── tickets_evaluated.csv
 ├── notebooks/
-│   └── ticket_evaluator_groq.ipynb     # Notebook principal con la solución
+│   └── ticket_evaluator_groq.ipynb
 ├── src/
-│   └── main.py                         # Script Python equivalente al notebook
+│   └── main.py
 ├── tests/
-│   └── test_evaluator.py               # Suite de tests unitarios
-├── .env                                # ⚠️ NO subir a GitHub — contiene la API key
+│   └── test_evaluator.py
+├── .env
 ├── .gitignore
 ├── README.md
-├── requirements.txt
-├── tickets.csv                         # CSV de entrada (proporcionado)
-└── tickets_evaluated.csv               # CSV de salida (generado al ejecutar)
+└── requirements.txt
 ```
 
 ---
