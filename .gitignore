@@ -1,0 +1,19 @@
+# Seguridad: nunca subir credenciales
+.env
+
+# Entornos virtuales
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# El tickets_evaluated.csv se incluye en este repo por ser un entregable
+# de la prueba técnica. En un proyecto real con datos reales no lo subiria
+# tickets_evaluated.csv
